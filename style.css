@@ -1,80 +1,134 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
 }
-body {
-  margin: 0 auto;
-  width: 900px;
-  font-family: "Roboto", sans-serif;
-  background-color: rgba(216, 216, 210, 0.979);
+
+section {
+  margin-bottom: 40px;
 }
-header {
-  width: 100%;
-  text-align: center;
-  background-color: rgb(106, 107, 107);
-  color: white;
-  position: sticky;
-  top: 0;
+
+ul {
+  list-style-type: disc;
 }
-main {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-}
-table {
-  width: 300px;
-  height: 100px;
-  padding: 0 20px;
-  text-align: left;
-}
-h1 {
-  margin: 0;
-  padding: 20px;
-}
-h2 {
-  margin: 0;
-  text-align: center;
-}
-h4,
-h5 {
-  padding: 0 20px;
-}
+
 img {
-  width: 250px;
+  width: 100%;
   height: auto;
 }
+
+h1 {
+  font-weight: 500;
+  font-size: 26px;
+  margin: 5px 0;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+h5 {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+p,
+li,
 a {
-  color: blue;
-  padding: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
 }
-footer {
-  background-color: rgb(106, 107, 107);
-  color: white;
+
+li {
+  margin-bottom: 5px;
 }
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+hr {
+  border-color: rgb(63, 51, 51);
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  margin: 0 -15px;
+  overflow: hidden;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 0 15px;
+}
+
+.col-4 {
+  width: 25%;
+  background-color: rgb(255, 209, 152);
+}
+
+.col-8 {
+  width: 75%;
+  background-color: rgb(255, 240, 221);
+}
+
 .flex-box {
   display: flex;
   justify-content: left;
-  text-align: left;
+  align-items: center;
+  margin: 7px 0;
 }
-.flex-box h4 {
-  width: 80px;
-  max-width: 80px;
+
+.free-space {
+  height: 30px;
 }
-.first-column {
-  padding: 0 30px;
-  background-color: rgb(106, 107, 107);
+
+.h {
+  min-height: 100%;
 }
-.first-column h4 {
-  color: white;
-}
-.second-column {
-  padding: 0 0 20px 0;
-  width: 100%;
-}
-.second-column h3 {
-  background-color: rgb(106, 107, 107);
-  color: white;
+
+.applicant {
+  margin: 15px 0 30px;
   text-align: center;
 }
+
+.contacts {
+  margin: 15px 0;
+}
+
+.contacts img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.box {
+  width: 100px;
+}
+
+/* 
 
 @media (max-width: 425px) {
   body {
@@ -86,4 +140,4 @@ footer {
   .first-column {
     text-align: center;
   }
-}
+} */

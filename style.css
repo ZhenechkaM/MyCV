@@ -86,6 +86,7 @@ hr {
 
 .col-4 {
   width: 25%;
+  height: 50%;
   background-color: rgb(255, 209, 152);
 }
 
@@ -103,10 +104,6 @@ hr {
 
 .free-space {
   height: 30px;
-}
-
-.h {
-  min-height: 100%;
 }
 
 .applicant {
@@ -128,16 +125,42 @@ hr {
   width: 100px;
 }
 
-/* 
+.portfolio div {
+  margin-bottom: 10px;
+}
+
+.timer {
+  width: 320px;
+  text-align: center;
+  background-color: rgb(255, 209, 152);
+  padding-top: 10px;
+}
+
+.timer-cell {
+  padding: 5px;
+  margin: 10px;
+  background-color:rgb(255, 240, 221);
+
+}
+
+
 
 @media (max-width: 425px) {
   body {
     width: auto;
   }
+  
   main {
     flex-direction: column;
   }
-  .first-column {
-    text-align: center;
+  .container {
+    width: 350px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
-} */
+
+  .col-12 {
+    width: 100%;
+  }
+  
+}

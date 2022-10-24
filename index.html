@@ -14,17 +14,13 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-4 free-space"> </div>
-                <div class="col-8 free-space"> </div>
-            </div>
-        </div>
+    
     </header>
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-4 h">
+                <div class="col-4 col-12">
+                    <div class="free-space"></div>
                     <img src="Eugenia.JPG"/>
                     <div class="applicant">
                         <h1>Ievgeniia Matviienko</h1>
@@ -49,8 +45,15 @@
                             <h4>e.motko</h4>
                         </div>
                     </div>
+                    <div class="free-space"></div>
+                    <div id="smile">
+                        <p>Contact me :)</p>
+                        <h4>(point the mouse at me)</h4>
+                    </div>
+                    <div class="free-space"></div> 
                 </div>
-                <div class="col-8">
+                <div class="col-8 col-12">
+                    <div class="free-space"></div>
                     <section>
                         <h3>WORK EXPERIENCE</h3>
                         <hr>
@@ -140,81 +143,50 @@
                             <li>Polish B1</li>
                         </ul>
                     </section>
-                    <section>
+                    <section class="portfolio">
                         <h3>PORTFOLIO</h3>
                         <hr>
-                        <a href="https://github.com/ZhenechkaM">My GitHub</a>
+                        <div>
+                            <a href="https://zhenechkam.github.io/MyCV/">My CV from GitHub</a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/ZhenechkaM">My GitHub</a>
+                        </div>
+                    </section>
+                    <section class="timer">
+                        <div>Time left for the available vacancy:</div>
+                        <div class="timer-block flex-box">
+                            <div class="timer-cell">
+                                <span id="days">00</span>
+                                days
+                            </div>
+                            <div class="timer-cell">
+                                <span id="hours">00</span>
+                                hours
+                            </div>
+                            <div class="timer-cell">
+                                <span id="minutes">00</span>
+                                minutes
+                            </div>
+                            <div class="timer-cell">
+                                <span id="seconds">00</span>
+                                seconds
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="postscript">
+                            <h4>P.S. :This CV availabel in mobile version</h4>
+                        </div>
                     </section>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <div>FOOTER</div>
+        
     </footer>
+    <script src="app.js"></script>
 
-
-    <!-- <header>
-        <h1>Евгения Матвиенко</h1>
-    </header>
-    <main>
-        <section class="first-column">
-            <img src="Eugenia.JPG"/>
-            <div>
-                <h4>E-mail:</h4>
-                <a href="mailto:e.motko@gmail.com">e.motko@gmail.com</a>
-                <h4>Skype: e.motko</h4>
-            </div>
-        </section>
-        <section class="second-column">
-            <table>
-                <tr>
-                    <th>Дата рождения:</th>
-                    <td>18.10.1988</td>
-                </tr>
-                <tr>
-                    <th>Город:</th>
-                    <td>Киев</td>
-                </tr>
-            </table>
-            <div>
-                <h3>Опыт работы</h3>
-                <div class="flex-box">
-                    <h4>2021</h4>
-                    <p>Курсы Front-End Development.<br/>Длительность 5 месяцев: HTML, CSS, GIT, JavaScript, React.</p>
-                </div>
-                <div class="flex-box">
-                    <h4>2013-2021</h4>
-                    <p>Домохозяйка</p>
-                </div>
-                <div class="flex-box">
-                    <h4>2010-2013</h4>
-                    <p>Бухгалтер в Санитарно-Епидемиологической Службе</br>города Киева.</p>
-                </div>
-            </div>
-            <div>
-                <h3>Образование</h3>
-                <div class="flex-box">
-                    <h4>2005-2010</h4>
-                    <p>Одесский Государственный Экономический Университет.</br>Специальность: Управление персоналом.</p>
-                </div>
-            </div>
-            <div>
-                <h3>Языки</h3>
-                <ul>
-                    <li>русский</li>
-                    <li>украинский</li>
-                    <li>английский(А1)</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Портфолио</h3>
-                <a href="https://github.com/ZhenechkaM">Мой GitHub</a>
-            </div>           
-        </section>
-    </main>
-    <footer>
-        <h2>Contact me   :)</h2>
-    </footer> -->
 </body>
 </html>
